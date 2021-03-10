@@ -3,7 +3,7 @@ include('BaseClass.php');
 class BlogHandler extends BaseClass{
     public $conn;
      public function __construct(){
-      $conn = new mysqli("localhost", "lsmojcom_production", "litEMOJ@%2020", "lsmojcom_production") or die("error");
+      $conn = new mysqli('', '', '', '') or die("error");
       $this->conn = $conn;
       $this->con = $this->conn;
   }
