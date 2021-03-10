@@ -1,0 +1,79 @@
+[24-Feb-2021 07:42:15 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:3
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/create.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 3
+[24-Feb-2021 07:42:34 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:3
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/create.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 3
+[24-Feb-2021 07:42:40 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:3
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/create.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 3
+[24-Feb-2021 07:42:47 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:3
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/create.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 3
+[24-Feb-2021 07:43:42 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:4
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/create.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 4
+[24-Feb-2021 07:46:05 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:4
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 4
+[24-Feb-2021 07:51:26 UTC] PHP Fatal error:  Uncaught Error: Class 'BlogHandler' not found in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:4
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 4
+[24-Feb-2021 07:52:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function BlogHandler::fetchUniqueViewers(), 0 passed in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 79 and exactly 1 expected in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php:45
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php(79): BlogHandler->fetchUniqueViewers()
+#1 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(1): include('/home/lsmojcom/...')
+#2 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 45
+[24-Feb-2021 07:53:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method BlogHandler::fetchUniqueViewers() in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php:79
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(1): include()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php on line 79
+[24-Feb-2021 08:13:04 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 47
+[24-Feb-2021 08:14:32 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 47
+[24-Feb-2021 08:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function emptyempty() in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php:56
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php(34): BlogHandler->getIPAddress()
+#1 /home/lsmojcom/uche.lsmoj.com.ng/blog/header.php(5): BlogHandler->uniqueUsers('ips')
+#2 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(1): include('/home/lsmojcom/...')
+#3 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 56
+[24-Feb-2021 09:27:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function BlogHandler::fetchBlogPosts(), 1 passed in /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php on line 513 and exactly 2 expected in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php:73
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(513): BlogHandler->fetchBlogPosts(8)
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 73
+[24-Feb-2021 09:33:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function BlogHandler::fetchBlogPosts(), 0 passed in /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php on line 513 and exactly 1 expected in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php:73
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/index.php(513): BlogHandler->fetchBlogPosts()
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 73
+[24-Feb-2021 10:52:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method BlogHandler::displayBlogPost() in /home/lsmojcom/uche.lsmoj.com.ng/blog/read.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/read.php on line 7
+[24-Feb-2021 10:52:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function BlogHandler::displayBlogPost(), 1 passed in /home/lsmojcom/uche.lsmoj.com.ng/blog/read.php on line 7 and exactly 2 expected in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php:92
+Stack trace:
+#0 /home/lsmojcom/uche.lsmoj.com.ng/blog/read.php(7): BlogHandler->displayBlogPost('3')
+#1 {main}
+  thrown in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 92
+[24-Feb-2021 10:54:09 UTC] PHP Notice:  Undefined index: date in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 101
+[24-Feb-2021 10:54:45 UTC] PHP Notice:  Undefined index: date in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 101
+[24-Feb-2021 10:55:36 UTC] PHP Notice:  Undefined index: date in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 101
+[24-Feb-2021 11:17:37 UTC] PHP Notice:  Undefined variable: _SET in /home/lsmojcom/uche.lsmoj.com.ng/blog/read.php on line 7
+[24-Feb-2021 11:20:07 UTC] PHP Notice:  Undefined property: BlogHandler::$countViews in /home/lsmojcom/uche.lsmoj.com.ng/blog/controller/BlogHandler.php on line 120
